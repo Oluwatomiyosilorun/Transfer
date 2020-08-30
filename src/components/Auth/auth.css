@@ -1,0 +1,64 @@
+.main-wrapper{
+    background-color: #f1f5f6;
+    padding: 0;
+    margin: 0;
+    font-family: "Karla",
+    sans-serif;
+}
+
+.sideA-wrap{
+    position: relative;
+}
+
+.sideA-mask{
+    width: 49%;
+    height: 100%;
+    background-color: green;
+    opacity: 0.6;
+    position: fixed;
+    color: white;
+}
+
+.sideA-mask h2{
+    border-style: dotted;
+    width: 40%;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sideA-mask h3{
+    margin-top: 70%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sideA-bg{
+    background-image: url("../../assets/lady-laptop.jpg");
+    width: 49%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+
+}
+
+.sideB{
+    position: fixed;
+    margin-left: 50%;
+}
+
+.form-container{
+    padding: 7rem;
+}
+
+.form-control{
+    padding: 1.8rem .75rem;
+    font-weight: bold;
+}
+
+.login,
+.login:hover{
+    color: #2dbe60;
+    font-weight: bold;
+}

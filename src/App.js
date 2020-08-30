@@ -1,11 +1,11 @@
 import React from 'react';
 import {HashRouter, Route} from "react-router-dom";
-import Home from './components/Home';
+import Signin from './components/Auth/Signin';
 
 const App = () => {
   return (
       <HashRouter>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Signin} />
       </HashRouter>
   );
 }
